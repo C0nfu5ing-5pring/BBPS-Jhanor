@@ -12,7 +12,9 @@ function Footer() {
             &nbsp;
             <p>|</p>
             &nbsp;
-            <Link className="hover:text-black">Career</Link>
+            <Link to="/career" className="hover:text-black">
+              Career
+            </Link>
             &nbsp;
             <p>|</p>
             &nbsp;

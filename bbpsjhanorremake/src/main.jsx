@@ -15,6 +15,7 @@ import Gallery from "./components/Gallery/Gallery.jsx";
 import Results from "./components/Results/Results.jsx";
 import Magazine from "./components/Magazine/Magazine.jsx";
 import Contact from "./components/Contact/Contact.jsx";
+import Career from "./components/Career/Career.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,7 +26,7 @@ const router = createBrowserRouter(
       <Route path="cbse-results" element={<Results />} />
       <Route path="magazine" element={<Magazine />} />
       <Route path="contact-us" element={<Contact />} />
-      <Route path="carrer" element={<Contact />} />
+      <Route path="career" element={<Career />} />
     </Route>
   )
 );
