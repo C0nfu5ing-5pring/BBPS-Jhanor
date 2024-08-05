@@ -40,8 +40,8 @@ export default function Header() {
               to="/explore"
               className={({ isActive }) =>
                 `${
-                  isActive ? "text-black" : "text-white"
-                } md:text-lg text-white hover:text-black py-1 px-1 mx-12 link`
+                  isActive ? "text-[#FFDE00]" : "text-white"
+                } md:text-lg text-white hover:text-[#FFDE00] py-1 px-1 mx-12 link`
               }
             >
               Explore
@@ -50,8 +50,8 @@ export default function Header() {
               to="/gallery"
               className={({ isActive }) =>
                 `${
-                  isActive ? "text-black" : "text-white"
-                } md:text-lg text-white hover:text-black py-1 px-1  mx-12 link`
+                  isActive ? "text-[#FFDE00]" : "text-white"
+                } md:text-lg text-white hover:text-[#FFDE00] py-1 px-1  mx-12 link`
               }
             >
               Gallery
@@ -60,8 +60,8 @@ export default function Header() {
               to="/cbse-results"
               className={({ isActive }) =>
                 `${
-                  isActive ? "text-black" : "text-white"
-                } md:text-lg text-white hover:text-black py-1 px-1  mx-12 link`
+                  isActive ? "text-[#FFDE00]" : "text-white"
+                } md:text-lg text-white hover:text-[#FFDE00] py-1 px-1  mx-12 link`
               }
             >
               CBSE Results
@@ -69,8 +69,8 @@ export default function Header() {
             <NavLink
               to="/magazine"
               className={({ isActive }) => `
-              ${isActive ? "text-black" : "text-white"}
-            } md:text-lg text-white hover:text-black py-1 px-1  mx-12 link`}
+              ${isActive ? "text-[#FFDE00]" : "text-white"}
+            } md:text-lg text-white hover:text-[#FFDE00] py-1 px-1  mx-12 link`}
             >
               Magazine
             </NavLink>
