@@ -4,6 +4,8 @@
 
 This project is a redesign of the BBPS-Jhanor School website, created by Shish Fruitwala, a student of Class 10. The website is built using modern web technologies and libraries to provide a fresh and engaging user experience.
 
+⚠️ **This website is currently under construction.**
+
 ## Technologies Used
 
 ### Frontend
