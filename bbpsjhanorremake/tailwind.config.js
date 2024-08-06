@@ -1,10 +1,17 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
-    fontFamily: {
-      'league-spartan': ['League Spartan Variable', 'sans-serif'],
+    extend: {
+      fontFamily: {
+        primaryBold: ["Bold"],
+        primarySemibold: ["SemiBold"],
+        primaryLight: ["Light"],
+        primaryExtralight: ["Extralight"],
+        primaryMedium: ["Medium"],
+        primaryExtrabold: ["Extrabold"],
+        primaryRegular: ["Regular"],
+      },
+    },
   },
   plugins: [],
 };

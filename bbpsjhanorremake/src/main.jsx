@@ -9,13 +9,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
-import Home from "./components/Home/Home";
-import Explore from "./components/Explore/Explore.jsx";
-import Gallery from "./components/Gallery/Gallery.jsx";
-import Results from "./components/Results/Results.jsx";
-import Magazine from "./components/Magazine/Magazine.jsx";
-import Contact from "./components/Contact/Contact.jsx";
-import Career from "./components/Career/Career.jsx";
+import Home from "./components/Home";
+import Explore from "./components/Explore.jsx";
+import Gallery from "./components/Gallery.jsx";
+import Results from "./components/Results.jsx";
+import Magazine from "./components/Magazine.jsx";
+import Contact from "./components/Contact.jsx";
+import Career from "./components/Career.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

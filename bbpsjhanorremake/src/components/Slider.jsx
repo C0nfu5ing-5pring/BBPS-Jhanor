@@ -22,20 +22,22 @@ function Slider() {
       gsap.fromTo(
         imageRef.current,
         { opacity: 0.5 },
-        { opacity: 1, duration: 1 }
+        { opacity: 1, duration: 1.5 }
       );
     }
   }, [imageIndex]);
   return (
     <>
-      <img
-        ref={imageRef}
-        src={images[imageIndex]}
-        alt=""
-        className="object-fit bg-cover bg-no-repeat w-[100%]"
-      />
-
       <div className="flex justify-center">
+        <img
+          ref={imageRef}
+          src={images[imageIndex]}
+          alt=""
+          className="object-fit bg-cover bg-no-repeat rounded-2xl w-[95%]"
+        />
+      </div>
+
+      <div className="mt-3 font-primaryBlack flex justify-center">
         <NavLink
           className={`h-[18px] w-[18px] bg-black rounded-full my-1 mx-1 ${
             imageIndex === 0 ? "bg-gray-400" : "bg-black"

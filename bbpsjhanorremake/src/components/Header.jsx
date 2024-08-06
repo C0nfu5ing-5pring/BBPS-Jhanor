@@ -2,8 +2,7 @@ import React, { useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import logo from "./logo.png";
-
+import logo from "./logo_black.png";
 export default function Header() {
   const gsapLogoRef = useRef();
   const tl = gsap.timeline();
@@ -25,7 +24,7 @@ export default function Header() {
   });
 
   return (
-    <header className="sticky top-0">
+    <header className="font-primaryBold sticky top-0 py-4">
       <nav className="">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <div ref={gsapLogoRef}>
@@ -37,26 +36,26 @@ export default function Header() {
           <div className="mr-8 linkContainer">
             <NavLink
               to="/explore"
-              className={`md:text-lg text-black hover:underline py-1 px-1 mx-12 link`}
+              className={`md:text-xl text-black hover:underline py-1 px-1 mx-12 link`}
             >
               Explore
             </NavLink>
             <NavLink
               to="/gallery"
-              className={`md:text-lg text-black hover:underline py-1 px-1  mx-12 link`}
+              className={`md:text-xl text-black hover:underline py-1 px-1  mx-12 link`}
             >
               Gallery
             </NavLink>
             <NavLink
               to="/cbse-results"
-              className={`md:text-lg text-black hover:underline py-1 px-1  mx-12 link`}
+              className={`md:text-xl text-black hover:underline py-1 px-1  mx-12 link`}
             >
               CBSE Results
             </NavLink>
             <NavLink
               to="/magazine"
               className={`
-             md:text-lg text-black hover:underline py-1 px-1  mx-12 link`}
+             md:text-xl text-black hover:underline py-1 px-1  mx-12 link`}
             >
               Magazine
             </NavLink>
