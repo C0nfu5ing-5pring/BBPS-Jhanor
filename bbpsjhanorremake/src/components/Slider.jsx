@@ -1,18 +1,28 @@
 import gsap from "gsap";
 import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import tdvac from "../assets/images/tdvac.jpg";
+import healthcheckup from "../assets/images/healthcheckup.jpg";
+import awareness from "../assets/images/awareness.jpg";
+import twinning from "../assets/images/twinning.jpg";
+import tentop from "../assets/images/tentop.png";
+import twelvetop from "../assets/images/twelvetop.png";
+import football from "../assets/images/football.jpg";
+import handball from "../assets/images/handball.jpg";
+import firesafety from "../assets/images/firesafety.jpg";
+import labourday from "../assets/images/labourday.jpg";
 function Slider() {
   const images = [
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/07/IMG20240711101419.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/07/IMG20240710095012.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/07/IMG_9872.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/07/Untitled.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/05/2-2.png",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/05/2.png",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/05/IMG20240501080005.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/05/IMG20240427082751.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/05/IMG_20240427_100234-1.jpg",
-    "https://bbpsjhanor.balbharati.org/wp-content/uploads/2024/04/20240415_114503.jpg",
+    tdvac,
+    healthcheckup,
+    awareness,
+    twinning,
+    tentop,
+    twelvetop,
+    football,
+    handball,
+    firesafety,
+    labourday,
   ];
   const [imageIndex, setImageIndex] = useState(0);
   const imageRef = useRef(null);
